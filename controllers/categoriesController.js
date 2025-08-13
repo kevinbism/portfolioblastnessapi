@@ -1,4 +1,3 @@
-// controllers/categoriesController.js
 const db = require('../config/database');
 
 // GET - Recupera tutte le categorie

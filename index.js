@@ -10,10 +10,12 @@ app.use(express.json());
 // Import routes
 const categoriesRoutes = require('./routes/categories');
 const modelsRoutes = require('./routes/models');
+const demosRoutes = require('./routes/demos');
 
 // Usa le routes con prefisso API
 app.use('/api/categories', categoriesRoutes);
 app.use('/api/models', modelsRoutes);
+app.use('/api/demos', demosRoutes);
 
 // Route di base (404)
 app.get('/', (req, res) => {

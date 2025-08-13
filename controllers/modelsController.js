@@ -1,4 +1,3 @@
-// controllers/modelsController.js
 const db = require('../config/database');
 
 // GET - Recupera tutti i models
